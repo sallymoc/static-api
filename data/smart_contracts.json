@@ -1,0 +1,472 @@
+{
+  "smart_contracts": [
+    {
+      "filename": "Qx.h",
+      "name": "QX",
+      "label": "Qx",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/Qx.h",
+      "contract_index": 1,
+      "address": "BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARMID",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Issue Asset"
+        },
+        {
+          "id": 2,
+          "name": "Transfer Share Ownership and Possession"
+        },
+        {
+          "id": 5,
+          "name": "Add to Ask Order"
+        },
+        {
+          "id": 6,
+          "name": "Add to Bid Order"
+        },
+        {
+          "id": 7,
+          "name": "Remove from Ask Order"
+        },
+        {
+          "id": 8,
+          "name": "Remove from Bid Order"
+        },
+        {
+          "id": 9,
+          "name": "Transfer Share Management Rights"
+        }
+      ]
+    },
+    {
+      "filename": "Quottery.h",
+      "name": "QTRY",
+      "label": "Quottery",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/Quottery.h",
+      "contract_index": 2,
+      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACNKL",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Issue Bet"
+        },
+        {
+          "id": 2,
+          "name": "Join Bet"
+        },
+        {
+          "id": 3,
+          "name": "Cancel Bet"
+        },
+        {
+          "id": 4,
+          "name": "Publish Result"
+        }
+      ]
+    },
+    {
+      "filename": "Random.h",
+      "name": "RANDOM",
+      "label": "Random",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/Random.h",
+      "contract_index": 3,
+      "address": "DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANMIG",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Reveal and Commit"
+        }
+      ]
+    },
+    {
+      "filename": "QUtil.h",
+      "name": "QUTIL",
+      "label": "QUtil",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/QUtil.h",
+      "contract_index": 4,
+      "address": "EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVWRF",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Send to Many v1"
+        },
+        {
+          "id": 2,
+          "name": "Burn Qubic"
+        },
+        {
+          "id": 3,
+          "name": "Send to Many Benchmark"
+        },
+        {
+          "id": 4,
+          "name": "Create Poll"
+        },
+        {
+          "id": 5,
+          "name": "Vote"
+        },
+        {
+          "id": 6,
+          "name": "Cancel Poll"
+        },
+        {
+          "id": 7,
+          "name": "Distribute Qu to Shareholders"
+        }
+      ]
+    },
+    {
+      "filename": "MyLastMatch.h",
+      "name": "MLM",
+      "label": "My Last Match",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/MyLastMatch.h",
+      "contract_index": 5,
+      "address": "FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYWJB",
+      "procedures": []
+    },
+    {
+      "filename": "GeneralQuorumProposal.h",
+      "name": "GQMPROP",
+      "label": "General Quorum Proposal",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/GeneralQuorumProposal.h",
+      "contract_index": 6,
+      "address": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQGNM",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Set Proposal"
+        },
+        {
+          "id": 2,
+          "name": "Vote"
+        }
+      ]
+    },
+    {
+      "filename": "SupplyWatcher.h",
+      "name": "SWATCH",
+      "label": "Supply Watcher",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/SupplyWatcher.h",
+      "contract_index": 7,
+      "address": "HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHYCM",
+      "procedures": []
+    },
+    {
+      "filename": "ComputorControlledFund.h",
+      "name": "CCF",
+      "label": "Computor Controlled Fund",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/ComputorControlledFund.h",
+      "contract_index": 8,
+      "address": "IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABXSH",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Set Proposal"
+        },
+        {
+          "id": 2,
+          "name": "Vote"
+        }
+      ]
+    },
+    {
+      "filename": "Qearn.h",
+      "name": "QEARN",
+      "label": "QEarn",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/Qearn.h",
+      "contract_index": 9,
+      "address": "JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVKHO",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Lock"
+        },
+        {
+          "id": 2,
+          "name": "Unlock"
+        }
+      ]
+    },
+    {
+      "filename": "QVAULT.h",
+      "name": "QVAULT",
+      "label": "QVault",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/QVAULT.h",
+      "contract_index": 10,
+      "address": "KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXIUO",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Submit Auth Address"
+        },
+        {
+          "id": 2,
+          "name": "Change Auth Address"
+        },
+        {
+          "id": 3,
+          "name": "Submit Distribution Permille"
+        },
+        {
+          "id": 4,
+          "name": "Change Distribution Permille"
+        },
+        {
+          "id": 5,
+          "name": "Submit Reinvesting Address"
+        },
+        {
+          "id": 6,
+          "name": "Change Reinvesting Address"
+        },
+        {
+          "id": 7,
+          "name": "Submit Admin Address"
+        },
+        {
+          "id": 8,
+          "name": "Change Admin Address"
+        },
+        {
+          "id": 9,
+          "name": "Submit Banned Address"
+        },
+        {
+          "id": 10,
+          "name": "Save Banned Address"
+        },
+        {
+          "id": 11,
+          "name": "Submit Unbanned Address"
+        },
+        {
+          "id": 12,
+          "name": "Unblock Banned Address"
+        }
+      ]
+    },
+    {
+      "filename": "MsVault.h",
+      "name": "MSVAULT",
+      "label": "Multi-Sign Vault",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/MsVault.h",
+      "contract_index": 11,
+      "address": "LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKPTJ",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Register Vault"
+        },
+        {
+          "id": 2,
+          "name": "Deposit"
+        },
+        {
+          "id": 3,
+          "name": "Release To"
+        },
+        {
+          "id": 4,
+          "name": "Reset Release"
+        },
+        {
+          "id": 13,
+          "name": "Vote Fee Change"
+        }
+      ]
+    },
+    {
+      "filename": "Qbay.h",
+      "name": "QBAY",
+      "label": "QBay",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/Qbay.h",
+      "contract_index": 12,
+      "address": "MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWLWD",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Setting C F B and Qubic Price"
+        },
+        {
+          "id": 2,
+          "name": "Create Collection"
+        },
+        {
+          "id": 3,
+          "name": "Mint"
+        },
+        {
+          "id": 4,
+          "name": "Mint of Drop"
+        },
+        {
+          "id": 5,
+          "name": "Transfer"
+        },
+        {
+          "id": 6,
+          "name": "List in Market"
+        },
+        {
+          "id": 7,
+          "name": "Buy"
+        },
+        {
+          "id": 8,
+          "name": "Cancel Sale"
+        },
+        {
+          "id": 9,
+          "name": "List in Exchange"
+        },
+        {
+          "id": 10,
+          "name": "Cancel Exchange"
+        },
+        {
+          "id": 11,
+          "name": "Make Offer"
+        },
+        {
+          "id": 12,
+          "name": "Accept Offer"
+        },
+        {
+          "id": 13,
+          "name": "Cancel Offer"
+        },
+        {
+          "id": 14,
+          "name": "Create Traditional Auction"
+        },
+        {
+          "id": 15,
+          "name": "Bid on Traditional Auction"
+        },
+        {
+          "id": 16,
+          "name": "Transfer Share Management Rights"
+        },
+        {
+          "id": 17,
+          "name": "Change Status of Market Place"
+        }
+      ]
+    },
+    {
+      "filename": "Qswap.h",
+      "name": "QSWAP",
+      "label": "QSwap",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/Qswap.h",
+      "contract_index": 13,
+      "address": "NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAML",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Issue Asset"
+        },
+        {
+          "id": 2,
+          "name": "Transfer Share Ownership and Possession"
+        },
+        {
+          "id": 3,
+          "name": "Create Pool"
+        },
+        {
+          "id": 4,
+          "name": "Add Liquidity"
+        },
+        {
+          "id": 5,
+          "name": "Remove Liquidity"
+        },
+        {
+          "id": 6,
+          "name": "Swap Exact Qu for Asset"
+        },
+        {
+          "id": 7,
+          "name": "Swap Qu for Exact Asset"
+        },
+        {
+          "id": 8,
+          "name": "Swap Exact Asset for Qu"
+        },
+        {
+          "id": 9,
+          "name": "Swap Asset for Exact Qu"
+        },
+        {
+          "id": 10,
+          "name": "Set Team Info"
+        },
+        {
+          "id": 11,
+          "name": "Transfer Share Management Rights"
+        }
+      ]
+    },
+    {
+      "filename": "Nostromo.h",
+      "name": "NOST",
+      "label": "Nostromo",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/Nostromo.h",
+      "contract_index": 14,
+      "address": "OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZTPD",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Register in Tier"
+        },
+        {
+          "id": 2,
+          "name": "Logout from Tier"
+        },
+        {
+          "id": 3,
+          "name": "Create Project"
+        },
+        {
+          "id": 4,
+          "name": "Vote in Project"
+        },
+        {
+          "id": 5,
+          "name": "Create Fundraising"
+        },
+        {
+          "id": 6,
+          "name": "Invest in Project"
+        },
+        {
+          "id": 7,
+          "name": "Claim Token"
+        },
+        {
+          "id": 8,
+          "name": "Upgrade Tier"
+        },
+        {
+          "id": 9,
+          "name": "Transfer Share Management Rights"
+        }
+      ]
+    },
+    {
+      "filename": "Qdraw.h",
+      "name": "QDRAW",
+      "label": "QDraw",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/Qdraw.h",
+      "contract_index": 15,
+      "address": "PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYVRC",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Buy Ticket"
+        }
+      ]
+    }
+  ]
+}
