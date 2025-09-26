@@ -4,11 +4,11 @@ This repository provides static data related to Qubic.
 
 It makes available information that is not directly accessible through the blockchain APIs, including:
 
-- 📜 **Smart contracts** — names, indexes, procedures, GitHub source links, and addresses  
-- 💱 **Exchanges** — known trading platforms and their Qubic addresses  
-- 🪙 **Tokens** — Additional tokens information  
-- 📓 **Address labels** — Relevant Qubic addresses  
-- 🖼 **Images** *(planned)* — Logos and icons (e.g., network logos, token logos) for use in explorers, wallets, dashboards, and analysis tools  
+- **Smart contracts** — names, indexes, procedures, GitHub source links, and addresses  
+- **Exchanges** — known trading platforms and their Qubic addresses  
+- **Tokens** — Additional tokens information  
+- **Address labels** — Relevant Qubic addresses  
+- **Images** *(planned)* — Logos and icons (e.g., network logos, token logos) for use in explorers, wallets, dashboards, and analysis tools  
 
 👉 **https://static.qubic.org/general/data/v1**
 
@@ -39,3 +39,10 @@ In the future, additional top-level folders may be added for product-specific re
 
 ### Purpose
 The goal is to provide a single, reliable source of structured JSON data and, in the future, images for developers, explorers, wallets, dashboards, and analysis tools.
+
+### How to Contribute
+
+Updates are welcome:
+
+- **Exchanges, tokens, address labels** — Open a Pull Request with the new values or entries.  
+- **Smart contracts** — Data is mainly auto-generated from the core source. If you notice something that needs correction, open an Issue instead of a PR.  
