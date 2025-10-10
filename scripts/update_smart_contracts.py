@@ -248,17 +248,25 @@ def find_registers(text: str) -> List[Tuple[int, str]]:
 # ---------------------------- Address helpers -------------------------------
 
 def index_to_base56(idx: int) -> str:
-    alphabet = "ABCDEFGHIJKLMNOP"
+    # Zero-based A..Z digits, big-endian; pad to 56 with 'A'
+    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     if idx <= 0:
         return "A" * 56
-    chars: List[str] = []
+    # Single-letter fast path (covers 1..25 -> B..Z)
+    if idx < len(alphabet):
+        return alphabet[idx] + "A" * 55
+    # General base-26 encoding, big-endian (idx >= 26)
     n = idx
-    while n > 0 and len(chars) < 56:
-        chars.append(alphabet[n & 0xF])
-        n >>= 4
-    while len(chars) < 56:
-        chars.append("A")
-    return "".join(chars[:56])
+    digits = []
+    while n > 0:
+        rem = n % 26
+        digits.append(alphabet[rem])  # 0->A, 25->Z
+        n //= 26
+    s = "".join(reversed(digits))
+    if len(s) > 56:
+        raise ValueError("index too large for 56-char address")
+    return s + "A" * (56 - len(s))
+
 
 def run_js_get_identity_from_index(cidx: int, js_lib_path: Path) -> Optional[str]:
     js_path = js_lib_path.resolve()
