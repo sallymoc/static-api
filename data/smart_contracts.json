@@ -273,6 +273,22 @@
         {
           "id": 13,
           "name": "Vote Fee Change"
+        },
+        {
+          "id": 19,
+          "name": "Deposit Asset"
+        },
+        {
+          "id": 20,
+          "name": "Release Asset To"
+        },
+        {
+          "id": 21,
+          "name": "Reset Asset Release"
+        },
+        {
+          "id": 25,
+          "name": "Revoke Asset Management Rights"
         }
       ]
     },
@@ -286,7 +302,7 @@
       "procedures": [
         {
           "id": 1,
-          "name": "Setting C F B and Qubic Price"
+          "name": "Setting CFB and Qubic Price"
         },
         {
           "id": 2,
@@ -465,6 +481,62 @@
         {
           "id": 1,
           "name": "Buy Ticket"
+        }
+      ]
+    },
+    {
+      "filename": "RandomLottery.h",
+      "name": "RL",
+      "label": "Random Lottery",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/RandomLottery.h",
+      "contract_index": 16,
+      "address": "QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPIYE",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Buy Ticket"
+        }
+      ]
+    },
+    {
+      "filename": "QBond.h",
+      "name": "QBOND",
+      "label": "QBond",
+      "github_url": "https://github.com/qubic/core/blob/main/src/contracts/QBond.h",
+      "contract_index": 17,
+      "address": "RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKAH",
+      "procedures": [
+        {
+          "id": 1,
+          "name": "Stake"
+        },
+        {
+          "id": 2,
+          "name": "Transfer MBond Ownership and Possession"
+        },
+        {
+          "id": 3,
+          "name": "Add Ask Order"
+        },
+        {
+          "id": 4,
+          "name": "Remove Ask Order"
+        },
+        {
+          "id": 5,
+          "name": "Add Bid Order"
+        },
+        {
+          "id": 6,
+          "name": "Remove Bid Order"
+        },
+        {
+          "id": 7,
+          "name": "Burn QU"
+        },
+        {
+          "id": 8,
+          "name": "Update CFA"
         }
       ]
     }
