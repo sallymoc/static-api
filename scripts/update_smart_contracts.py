@@ -3,7 +3,7 @@
 Update data/smart_contracts.json by fetching sources from GitHub raw.
 
 Rules:
-- Skip contracts with contract_index == None.
+- Skip contracts with contractIndex == None.
 - Include contracts even with zero REGISTER_USER_PROCEDURE calls (procedures=[]).
 - "name": read from contract_def.h -> struct ContractDescription -> contractDescriptions array.
           Each item (EXCEPT the first) corresponds to index 1..N.
@@ -14,13 +14,14 @@ Rules:
           - If whole name is uppercase, keep "Q" + next uppercase + rest lowercase (QVAULT -> QVault).
           - Examples: Qx -> Qx, QUTIL -> QUtil, Qswap -> QSwap, Qbay -> QBay.
       * Otherwise: prettified phrase (GeneralQuorumProposal -> General Quorum Proposal).
-- Fields: filename, name, label, github_url, contract_index, address, procedures(list of {id,name}).
+- Fields: filename, name, label, githubUrl, contractIndex, address, procedures(list of {id,name}).
 - address: computed via Node using your JS helper:
-      const publicKey = helper.getIdentityBytes(addr56);  // addr56 built from contract_index (A..P, LE, len=56)
+      const publicKey = helper.getIdentityBytes(addr56);  // addr56 built from contractIndex (A..P, LE, len=56)
       const identity  = await helper.getIdentity(publicKey)  // 60-char with checksum
-- Non-destructive merge: adds new contracts and new procedure IDs; preserves manual edits,
-  but refreshes authoritative fields (name, contract_index, and address if newly computed).
-- Sort: contracts by contract_index; procedures by id.
+- Non-destructive merge: adds new contracts and new procedure IDs; preserves manual edits and custom fields.
+  Authoritative fields (auto-updated from GitHub): filename, name, contractIndex, address, githubUrl, procedures.
+  Preserved fields: label (if already set), and any custom fields (e.g., proposalUrl, etc.).
+- Sort: contracts by contractIndex; procedures by id.
 """
 
 import argparse
@@ -362,16 +363,22 @@ def merge_contracts(existing: List[Dict[str, Any]], fresh: List[Dict[str, Any]])
 
         ex = by_filename[fname]
 
+        # Update authoritative fields from fresh data
         if isinstance(new.get("name"), str):
             ex["name"] = new["name"]
-        if "contract_index" in new:
-            ex["contract_index"] = new["contract_index"]
+        if "contractIndex" in new:
+            ex["contractIndex"] = new["contractIndex"]
         if new.get("address"):
             ex["address"] = new["address"]
+        if new.get("githubUrl"):
+            ex["githubUrl"] = new["githubUrl"]
 
         # keep existing label if present
         if not ex.get("label") and isinstance(new.get("label"), str):
             ex["label"] = new["label"]
+
+        # Note: All other fields in 'ex' (like proposalUrl, etc.) are preserved automatically
+        # since we're updating the existing dict in-place rather than replacing it
 
         ex_list = normalize_procs_to_list(ex.get("procedures", []))
         new_list = normalize_procs_to_list(new.get("procedures", []))
@@ -388,7 +395,7 @@ def merge_contracts(existing: List[Dict[str, Any]], fresh: List[Dict[str, Any]])
 def sort_contracts(contracts: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return sorted(
         contracts,
-        key=lambda sc: sc.get("contract_index") if sc.get("contract_index") is not None else 1e9
+        key=lambda sc: sc.get("contractIndex") if sc.get("contractIndex") is not None else 1e9
     )
 
 # ---------------------------- Main -----------------------------------------
@@ -451,14 +458,14 @@ def main():
         else:
             addr = index_to_base56(cidx)
 
-        github_url = f"https://github.com/qubic/core/blob/main/src/contracts/{basename}"
+        githubUrl = f"https://github.com/qubic/core/blob/main/src/contracts/{basename}"
 
         fresh_entries.append({
             "filename": basename,
             "name": name_value,
             "label": label,
-            "github_url": github_url,
-            "contract_index": cidx,
+            "githubUrl": githubUrl,
+            "contractIndex": cidx,
             "address": addr,
             "procedures": procs,
         })
