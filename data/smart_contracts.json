@@ -62,7 +62,8 @@
           "id": 4,
           "name": "Publish Result"
         }
-      ]
+      ],
+      "website": "https://quottery.org/"
     },
     {
       "filename": "Random.h",
@@ -188,7 +189,8 @@
           "id": 2,
           "name": "Unlock"
         }
-      ]
+      ],
+      "website": "https://qearn.org"
     },
     {
       "filename": "QVAULT.h",
