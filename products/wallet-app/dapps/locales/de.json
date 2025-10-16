@@ -1,0 +1,20 @@
+{
+    "proposals_name": "Vorschläge",
+    "proposals_description": "Sieh dir an, was als Nächstes bei Qubic kommt.",
+    "proposals_featured_description": "Eine hochmoderne Plattform, auf der die Qubic-Community die Zukunft gestaltet. Stimme über neue Funktionen, Verbesserungen und strategische Ausrichtungen ab.",
+    "qx_name": "Qx",
+    "qx_description": "Erste dezentrale Qubic-Börse.",
+    "qx_featured_description": "QX ist eine dezentrale Börse, die als Smart Contract im Qubic-Netzwerk läuft.",
+    "qearn_name": "QEarn",
+    "qearn_description": "Verdiene Belohnungen durch das Staken von $QUBIC.",
+    "qxboard_name": "QXBoard",
+    "qxboard_description": "Benutzerfreundliche QX-Oberfläche für Qubic-Assets.",
+    "qxtrade_name": "QXTrade",
+    "qxtrade_description": "Benutzerfreundliche QX-Oberfläche für Qubic-Assets.",
+    "opensea_name": "OpenSea",
+    "opensea_description": "NFT-Marktplatz.",
+    "explorer_name": "Qubic Explorer",
+    "explorer_description": "Einfacher Zugriff auf alle Blockchain-Daten.",
+    "community_voting_name": "Community-Abstimmung",
+    "community_voting_description": "Umfragen erstellen, abstimmen und an der Governance von Qubic mitwirken."
+}

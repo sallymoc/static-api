@@ -1,0 +1,20 @@
+{
+    "proposals_name": "Предложения",
+    "proposals_description": "Узнайте, что ждет Qubic в будущем.",
+    "proposals_featured_description": "Передовая платформа, где сообщество Qubic формирует будущее. Голосуйте за новые функции, улучшения и стратегические направления.",
+    "qx_name": "Qx",
+    "qx_description": "Первая децентрализованная биржа Qubic.",
+    "qx_featured_description": "QX — это децентрализованная биржа, работающая как смарт-контракт в сети Qubic.",
+    "qearn_name": "QEarn",
+    "qearn_description": "Зарабатывайте награды, стейкая $QUBIC.",
+    "qxboard_name": "QXBoard",
+    "qxboard_description": "Удобный интерфейс QX для активов Qubic.",
+    "qxtrade_name": "QXTrade",
+    "qxtrade_description": "Удобный интерфейс QX для активов Qubic.",
+    "opensea_name": "OpenSea",
+    "opensea_description": "Площадка для торговли NFT.",
+    "explorer_name": "Qubic Explorer",
+    "explorer_description": "Простой доступ ко всем данным блокчейна.",
+    "community_voting_name": "Голосование сообщества",
+    "community_voting_description": "Создавай опросы, голосуй и участвуй в управлении Qubic."
+}

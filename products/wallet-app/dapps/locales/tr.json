@@ -1,0 +1,20 @@
+{
+    "proposals_name": "Öneriler",
+    "proposals_description": "Qubic için sırada ne olduğunu görün.",
+    "proposals_featured_description": "Qubic topluluğunun geleceği şekillendirdiği yenilikçi bir platform. Yeni özelliklere, iyileştirmelere ve stratejik yönlere oy verin.",
+    "qx_name": "Qx",
+    "qx_description": "İlk Qubic merkeziyetsiz borsası.",
+    "qx_featured_description": "QX, Qubic ağı üzerinde bir akıllı sözleşme olarak çalışan merkeziyetsiz bir borsadır.",
+    "qearn_name": "QEarn",
+    "qearn_description": "$QUBIC stake ederek ödüller kazanın.",
+    "qxboard_name": "QXBoard",
+    "qxboard_description": "Qubic varlıkları için kullanıcı dostu QX arayüzü.",
+    "qxtrade_name": "QXTrade",
+    "qxtrade_description": "Qubic varlıkları için kullanıcı dostu QX arayüzü.",
+    "opensea_name": "OpenSea",
+    "opensea_description": "NFT pazaryeri.",
+    "explorer_name": "Qubic Explorer",
+    "explorer_description": "Tüm blokzincir verilerine kolay erişim.",
+    "community_voting_name": "Topluluk Oylaması",
+    "community_voting_description": "Anket oluştur, oy ver ve Qubic’in yönetimine katıl."
+}

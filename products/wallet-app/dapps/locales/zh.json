@@ -1,0 +1,20 @@
+{
+    "proposals_name": "提案",
+    "proposals_description": "查看 Qubic 接下來的發展。",
+    "proposals_featured_description": "一個前沿平台，由 Qubic 社群共同塑造未來。對新功能、改進和策略方向進行投票。",
+    "qx_name": "Qx",
+    "qx_description": "Qubic 的第一個去中心化交易所。",
+    "qx_featured_description": "QX 是在 Qubic 網路上以智能合約形式運行的去中心化交易所。",
+    "qearn_name": "QEarn",
+    "qearn_description": "透過質押 $QUBIC 賺取獎勵。",
+    "qxboard_name": "QXBoard",
+    "qxboard_description": "用於 Qubic 資產的友善 QX 使用者介面。",
+    "qxtrade_name": "QXTrade",
+    "qxtrade_description": "用於 Qubic 資產的友善 QX 使用者介面。",
+    "opensea_name": "OpenSea",
+    "opensea_description": "NFT 市場。",
+    "explorer_name": "Qubic Explorer",
+    "explorer_description": "輕鬆存取所有區塊鏈資料。",
+    "community_voting_name": "社群投票",
+    "community_voting_description": "建立投票、投票並參與 Qubic 治理。"
+}

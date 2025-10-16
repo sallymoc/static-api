@@ -1,0 +1,20 @@
+{
+    "proposals_name": "Proposals",
+    "proposals_description": "See what's next for Qubic.",
+    "proposals_featured_description": "A cutting-edge platform where the Qubic community shapes the future. Vote on new features, improvements, and strategic directions.",
+    "qx_name": "Qx",
+    "qx_description": "1st Qubic decentralised exchange.",
+    "qx_featured_description": "QX is a decentralized exchange running as a smart contract on the Qubic network.",
+    "qearn_name": "QEarn",
+    "qearn_description": "Earn Rewards by Staking $QUBIC.",
+    "qxboard_name": "QXBoard",
+    "qxboard_description": "User Friendly QX UI for Qubic Assets.",
+    "qxtrade_name": "QXTrade",
+    "qxtrade_description": "User Friendly QX UI for Qubic Assets.",
+    "opensea_name": "OpenSea",
+    "opensea_description": "NFT marketplace.",
+    "explorer_name": "Qubic Explorer",
+    "explorer_description": "Access easily to all the blockchain data.",
+    "community_voting_name": "Community Voting",
+    "community_voting_description": "Create polls, vote, and help govern Qubic."
+}
